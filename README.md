@@ -18,7 +18,7 @@ Demonstration on how to use worker threads for concurrent image processing tasks
   - [Examples](#examples)
   - [Contributing](#contributing)
   - [License](#license)
-  - [let's connect](#Let's-connect)
+  - [let's connect](#license)
 
 ## Concept
 
@@ -96,7 +96,7 @@ This repo is licensed under the MIT License.
 
 <div align='center'>
   
- ### :gem: Let's connect
+ ## :gem: Let's connect
   
   [![website-shield][website-shield]][website-url] [![LinkedIn][linkedin-shield]][linkedin-url] [![instagram-shield][instagram-shield]][instagram-url]
   
