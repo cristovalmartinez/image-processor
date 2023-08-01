@@ -18,6 +18,7 @@ Demonstration on how to use worker threads for concurrent image processing tasks
   - [Examples](#examples)
   - [Contributing](#contributing)
   - [License](#license)
+  - [let's connect](#gem)
 
 ## Concept
 
