@@ -1,0 +1,15 @@
+{
+  "name": "image-processor-worker-threads",
+  "version": "1.0.0",
+  "description": "An image processing application using Node.js worker threads in JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "keywords": ["image", "processing", "app", "node.js", "JavaScript", "worker-threads"],
+  "author": "Cristoval Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.29.1"
+  },
+}
