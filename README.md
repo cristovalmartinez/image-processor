@@ -1,3 +1,7 @@
+<div align="center"> 
+  <img src="https://blog.logrocket.com/wp-content/uploads/2019/09/singlethreadcode.jpg" width="400" alt="worker_threads" />
+</div>
+
 # Image Processing Application with Node.js Worker Threads
 
 Demonstration on how to use worker threads for concurrent image processing tasks. The application utilizes the `sharp` library for image manipulation and showcases how worker threads can improve performance and network latency when dealing with computationally intensive or I/O-bound image processing operations.
@@ -49,8 +53,8 @@ The application provides an HTTP server that listens on a specified port. Users 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/image-processing-app.git
-   cd image-processing-app
+   git clone https://github.com/cristovalmartinez/image-processor.git
+   cd image-processor-worker-threads
    ```
 
 2. Install the required dependencies:
@@ -76,7 +80,7 @@ The HTTP server will start listening on the default port (3000). You can access 
 Hence the app does not have a client/ui, however you can use "curl" via the command line to process an image. Make a POST request to the `/process` endpoint with the image file. The HTTP server will simulate the image upload and process the image concurrently using worker threads for both resizing and grayscaling.
 
 ```bash
-curl -X POST -F "image=@path/to/your/image.jpg" http://localhost:3000/process
+curl -X POST -F "path-to-image/image.jpg" http://localhost:3000/process
 ```
 
 The processed images will be saved in the specified output directories as `resized.jpg` and `grayscale.jpg`.
@@ -87,8 +91,29 @@ Contributions are welcome, If you find any issues or have ideas for improvements
 
 ## License
 
-This repo is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This repo is licensed under the MIT License.
 
----
+<div align='center'>
+  
+ ### :gem: Let's connect
+  
+  [![website-shield][website-shield]][website-url] [![LinkedIn][linkedin-shield]][linkedin-url] [![instagram-shield][instagram-shield]][instagram-url]
+  
+</div>
 
-Feel free to modify this README file according to your repository's specific implementation and additional features. It should serve as a comprehensive guide for users and potential contributors to understand the concept and approach of your image processing application using Node.js worker threads.
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge -->
+<!-- [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors -->
+<!-- [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge -->
+<!-- [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white -->
+[linkedin-shield]: https://img.shields.io/badge/linkedin-blue?style=flat&logo=linkedin
+[linkedin-url]: https://www.linkedin.com/in/cristoval
+[instagram-shield]: https://img.shields.io/badge/instagram-orange?style=flat&logo=instagram&logoColor=white
+[instagram-url]: https://www.instagram.com/cristoval.m/
+[website-shield]: https://img.shields.io/badge/website-gray?style=flat&logo=stylelint&logoColor=white
+[website-url]: https://www.cristovalmartinez.com
