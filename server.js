@@ -1,5 +1,3 @@
-// main.js
-
 const http = require('http');
 const fs = require('fs');
 const { Worker, isMainThread, parentPort, workerData } = require('worker_threads');
@@ -36,7 +34,7 @@ if (!isMainThread) {
     try {
       const image = sharp(imagePath);
 
-      // Simulate a long processing time with a timer (5 seconds in this example)
+      // Simulate a long processing time with a timer (example, 5 seconds)
       await new Promise((resolve) => setTimeout(resolve, 5000));
 
       if (operation === 'resize') {
