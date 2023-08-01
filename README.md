@@ -53,7 +53,7 @@ The application provides an HTTP server that listens on a specified port. Users 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/cristovalmartinez/image-processor.git
+   git clone https://github.com/cristovalmartinez/image-processor-worker-threads.git
    cd image-processor-worker-threads
    ```
 
